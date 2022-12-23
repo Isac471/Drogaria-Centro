@@ -1,0 +1,51 @@
+input {
+    padding: 5px;
+    color: black;
+}
+
+textarea {
+    color: black;
+    padding: 10px;
+}
+
+#externa {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid;
+    padding: 82px;
+    margin: 100px auto;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    width: 100%;
+}
+h1 {
+  text-align: center;
+}
+
+
+body {
+  text-align: center;
+}
+
+select {
+  background-image: linear-gradient(to right, rgb(0, 150, 90), rgb(3, 160, 98), rgb(0, 150, 90));
+  border: black solid;
+}
+/* Footer */
+#Sec{
+  text-align: center;
+  margin: 25.87vh;
+}
+/* Footer */

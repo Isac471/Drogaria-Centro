@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+  
+    overflow-x: hidden;
+  
+    align-items: center;
+    justify-content: center;
+  
+    background-image: linear-gradient(to right, red, rgb(255, 66, 66), red);
+    width: 100%;
+  }
+  /* Header */
+  
+  nav {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+    
+      align-items: center;
+    
+      width: 100%;
+      height: 8vh;
+      padding-left: 2vh;
+    
+      font-family: "JetBrains Mono", sans-serif;
+    
+      background-color:rgb(0, 0, 0, 7);
+      transition: 0.2s all;
+      z-index: 9999;
+    }
+    
+    nav.scrolled {
+      height: 6vh;
+      background-color: black;
+    }
+    
+    nav h1 {
+      font-size: 3.5vh;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 0.03vh;
+      color: rgb(255, 0, 0);
+    }
+    
+    nav ul {
+      display: flex;
+    
+      width: 100%;
+    
+      list-style: none;
+    }
+    
+    nav li {
+      margin-left: 1%;
+    }
+    
+    nav a {
+      color: rgb(255, 0, 0);
+      text-decoration: none;
+    
+      font-size: 100%;
+      padding: 1vh;
+      border-radius: 1vh;
+    
+      cursor: pointer;
+      transition: 0.2s all;
+    }
+    
+    nav ul a:hover {
+      background-color: rgba(255, 255, 255, 0.664);
+    }
+    /* Footer */
+    #github:hover{
+      transform: scale(1.2);
+      transition-delay: 0.2s;
+      transition-duration: 0.5s;
+    }
+    #instagram:hover{
+      transform: scale(1.2);
+      transition-delay: 0.2s;
+      transition-duration: 0.5s;
+    }
+    #gmail:hover{
+      transform: scale(1.2);
+      transition-delay: 0.2s;
+      transition-duration: 0.5s;
+    }
+    #whatsapp:hover{
+      transform: scale(1.2);
+      transition-delay: 0.2s;
+      transition-duration: 0.5s;
+    }
+    a{
+      color: red;
+    }
+    img{
+      width: 15.22vh;
+      color: white;
+      margin: 1.5vh 1.5vh;
+    }
+  #Sec{
+      text-align: center;
+  }
+  /* Scroll*/
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5vh;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(255, 0, 0);
+  }
+  
