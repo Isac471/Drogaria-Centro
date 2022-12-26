@@ -9,6 +9,7 @@ body {
   
     background-image: linear-gradient(to right, red, rgb(255, 66, 66), red);
     width: 100%;
+    color: white;
   }
   /* Header */
   
@@ -17,7 +18,7 @@ body {
       position: fixed;
       top: 0;
       left: 0;
-    
+ 
       align-items: center;
     
       width: 100%;
@@ -26,14 +27,14 @@ body {
     
       font-family: "JetBrains Mono", sans-serif;
     
-      background-color:rgb(0, 0, 0, 7);
+      background-color:white;
       transition: 0.2s all;
       z-index: 9999;
     }
     
     nav.scrolled {
       height: 6vh;
-      background-color: black;
+      background-color: white;
     }
     
     nav h1 {
@@ -68,7 +69,7 @@ body {
     }
     
     nav ul a:hover {
-      background-color: rgba(255, 255, 255, 0.664);
+      background-color: rgba(0, 0, 0, 0.255);
     }
     /* Footer */
     #github:hover{
@@ -108,11 +109,11 @@ body {
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: black;
+    background-color: white;
     border-radius: 5vh;
   }
   
   ::-webkit-scrollbar-track {
     background-color: rgb(255, 0, 0);
   }
-  
+  /* Scroll*/  
