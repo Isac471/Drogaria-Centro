@@ -1,11 +1,11 @@
 input {
-    padding: 5px;
+    padding: 0.761vh;
     color: black;
 }
 
 textarea {
     color: black;
-    padding: 10px;
+    padding: 1.522vh;
 }
 
 #externa {
@@ -18,15 +18,15 @@ textarea {
     width: 50%;
 
     font-family: 'Poppins', sans-serif;
-    border: 1px solid;
-    padding: 82px;
-    margin: 100px auto;
+    border: 0.1522vh solid;
+    padding: 12.48vh;
+    margin: 15.22vh auto;
 }
 
 form div {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 4.5vh;
 
     width: 100%;
 }
@@ -46,6 +46,6 @@ select {
 /* Footer */
 #Sec{
   text-align: center;
-  margin: 25.87vh;
+  margin: 29.87vh;
 }
 /* Footer */
