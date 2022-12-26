@@ -35,6 +35,7 @@ body {
     nav.scrolled {
       height: 6vh;
       background-color: white;
+      opacity: 90%;
     }
     
     nav h1 {
