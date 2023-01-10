@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
   
-    background-image: linear-gradient(to right, red, rgb(255, 66, 66), red);
+    background-color:  red;
     width: 100%;
     color: white;
   }
@@ -72,6 +72,12 @@ body {
     nav ul a:hover {
       background-color: rgba(0, 0, 0, 0.255);
     }
+    /* logo Empresa 
+    #LgEmpresa{
+      width: 45px;
+    }
+     logo Empresa */
+    
     /* Footer */
     #github:hover{
       transform: scale(1.2);
@@ -101,9 +107,7 @@ body {
       color: white;
       margin: 1.5vh 1.5vh;
     }
-  #Sec{
-      text-align: center;
-  }
+
   /* Scroll*/
   ::-webkit-scrollbar {
     width: 0.76vh;
