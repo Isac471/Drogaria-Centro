@@ -1,0 +1,19 @@
+/*.Remedios-Padrao{
+   margin: auto;
+   text-align: center;
+   border-radius: 50px;
+   border: 5px solid white;
+   margin: 50px 370px;
+}
+.Remedio{
+    margin: auto;
+   text-align: center;
+   border-radius: 50px;
+   border: 2px solid white;
+   margin: 10px 10px;
+}
+.Remedio:hover{
+    transform: scale(1.2);
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+}
