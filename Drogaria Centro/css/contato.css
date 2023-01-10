@@ -1,51 +1,48 @@
 input {
-    padding: 0.761vh;
-    color: black;
+  padding: 0.761vh;
+  color: black;
 }
 
 textarea {
-    color: black;
-    padding: 1.522vh;
+  color: black;
+  padding: 1.522vh;
 }
 
 #externa {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 
-    width: 50%;
+  width: 50%;
 
-    font-family: 'Poppins', sans-serif;
-    border: 0.1522vh solid;
-    padding: 12.48vh;
-    margin: 15.22vh auto;
+  font-family: 'Poppins', sans-serif;
+  border: 0.1522vh solid;
+  padding: 12.48vh;
+  margin: 15.22vh auto;
 }
 
 form div {
-    display: flex;
-    flex-direction: column;
-    margin-top: 4.5vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.5vh;
 
-    width: 100%;
+  width: 100%;
 }
 h1 {
-  text-align: center;
+text-align: center;
 }
 
 
 body {
-  text-align: center;
+text-align: center;
 }
 
 select {
-  background-image: linear-gradient(to right, rgb(0, 150, 90), rgb(3, 160, 98), rgb(0, 150, 90));
-  border: black solid;
+background-image: linear-gradient(to right, rgb(0, 150, 90), rgb(3, 160, 98), rgb(0, 150, 90));
+border: black solid;
 }
-/* Footer */
-#Sec{
-  text-align: center;
-  margin: 29.87vh;
+footer{
+  margin: 36.87vh ;
 }
-/* Footer */
