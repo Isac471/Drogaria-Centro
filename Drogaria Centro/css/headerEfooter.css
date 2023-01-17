@@ -6,6 +6,7 @@ body {
   
     align-items: center;
     justify-content: center;
+    text-align: center;
   
     background-color:  red;
     width: 100%;
@@ -37,7 +38,9 @@ body {
       background-color: white;
       opacity: 90%;
     }
-    
+    nav.scrolled #imagem-login{
+      width: 5vh;
+    }
     nav h1 {
       font-size: 3.5vh;
       font-family: "Poppins", sans-serif;
@@ -121,4 +124,27 @@ body {
   ::-webkit-scrollbar-track {
     background-color: rgb(255, 0, 0);
   }
-  /* Scroll*/  
+  /* Scroll*/ 
+
+
+  /* Login  */
+
+#imagem-login{
+  transition: 0.2s all;
+  margin-top: 2vh;
+  width: 7vh;
+}
+#imagem-login:hover{
+  transform: scale(1.2);
+  transition-delay: 0.2s;
+  transition-duration: 0.5s;
+}
+#login-separacao{
+  width: 52vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+h5{
+  color: red;
+}
